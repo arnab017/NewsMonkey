@@ -89,9 +89,6 @@ export class Navbar extends Component {
 				<div className={`mt-4 ${this.state.isMenuOpen ? "block" : "hidden"}`}>
 					<ul className="flex flex-col space-y-2">
 						<li>
-							<Link to="/Home">Home</Link>
-						</li>
-						<li>
 							<Link to="/Business">Business</Link>
 						</li>
 						<li>
